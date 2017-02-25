@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'robotocondensed';
+    src: url('../fonts/roboto-condensed-webfont.eot');
+    src: url('../fonts/roboto-condensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-condensed-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-condensed-webfont.woff') format('woff'),
+         url('../fonts/roboto-condensed-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-condensed-webfont.svg#robotocondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/roboto-light-webfont.eot');
+    src: url('../fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-light-webfont.woff') format('woff'),
+         url('../fonts/roboto-light-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'artely_inks_personal_useRg';
+    src: url('../fonts/artelyinks_personal_use-webfont.eot');
+    src: url('../fonts/artelyinks_personal_use-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/artelyinks_personal_use-webfont.woff2') format('woff2'),
+         url('../fonts/artelyinks_personal_use-webfont.woff') format('woff'),
+         url('../fonts/artelyinks_personal_use-webfont.ttf') format('truetype'),
+         url('../fonts/artelyinks_personal_use-webfont.svg#artely_inks_personal_useRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	background-color: #00b4cc;
+	font-family: 'robotolight';
+	color: #343838;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.content {
+	min-height: 500px;
+}
+
+.content-2 {
+	min-height: 300px;
+}
+
+.no-pad {
+	padding-right: 0px!important;
+	padding-left: 0px!important;
+}
+
+.header {
+	background-color: rgba(255, 255, 255, .7);
+	min-height: 70px;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+}
+
+.logo-header {
+	padding: 5px 0px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px!important;
+    border: none!important;
+}
+
+.navbar-collapse {
+	float: right;
+}
+
+.image-bg-fluid-height {
+	background: url('../img/bg_01.jpg') no-repeat center center scroll;
+	background-size: cover;
+    height: 600px;
+}
+
+.image-bg-fluid-height-2 {
+	background: url('../img/topo_portfolio.jpg') no-repeat center center scroll;
+	background-size: cover;
+    height: 200px;
+}
+
+.sobre-mim {
+	margin-top: 8%;
+	margin-bottom: 8%;
+	padding: 5px 0px;
+}
+
+.texto-sobre {
+	background-color: #FFFFFF;
+}
+
+.titulo {
+	font-family: 'artely_inks_personal_useRg';
+	font-size: 72px;
+	padding-left: 5px;
+}
+
+.cor1 {
+	color: #00b4cc;
+}
+
+.cor2 {
+	color: #FFFFFF;
+}
+
+.font-2 {
+	font-family: 'robotocondensed';
+}
+
+.font-3 {
+	font-family: 'artely_inks_personal_useRg';
+	font-size: 24px;
+}
+
+.fundo-1 {
+	background-image: url(../img/portfolio/bg_01.jpg);
+}
+
+.fundo-2 {
+	background-image: url(../img/portfolio/bg_02.jpg);
+}
+
+.fundo-3 {
+	background-image: url(../img/portfolio/bg_03.jpg);
+}
+
+.fundo-4 {
+	background-image: url(../img/portfolio/bg_04.jpg);
+}
+
+.fundo-5 {
+	background-image: url(../img/portfolio/bg_05.jpg);
+}
+
+.fundo-6 {
+	background-image: url(../img/portfolio/bg_06.jpg);
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 45%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+     position: absolute;
+   	 top: 0;
+     left: 0;
+     width: 100% !important;
+     height: 100% !important;
+}
+
+.risc {
+	text-decoration: line-through;
+}
+
+.footer {
+	background-color: #343838;
+	min-height: 70px;
+}
+
+.footer ul {
+	float: right;
+	margin-top: 15px;
+}
+
+.footer p {
+	margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 767px) {
+
+.navbar-collapse {
+		float: left;
+	}
+
+.footer {
+	height: 120px;
+	text-align: center;
+}
+
+.footer ul {
+	float: none;
+}
+
+}
